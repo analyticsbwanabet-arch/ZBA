@@ -1,9 +1,0 @@
-:root{color-scheme:light;}
-html{scroll-behavior:smooth;}
-/* Ensure anchored sections don't hide under the fixed header */
-section{scroll-margin-top:96px;}
-/* Reduce motion support */
-@media (prefers-reduced-motion: reduce){
-  html{scroll-behavior:auto;}
-  *{transition-duration:0.001ms !important; animation-duration:0.001ms !important;}
-}
